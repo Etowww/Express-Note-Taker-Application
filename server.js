@@ -16,9 +16,21 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, 'public')));
 
 
+// HTML Routes
+// Get * returns the index.html file for all requests other than /notes
+app.get('*', (req, res) => {
+    // Conditional logic to make sure '*' route doesn't override the /notes route
+    if (req.url === '/notes') {
+        res.sendFile(path.join(__dirname, '/public/notes.html'));
+    } else {
+        res.sendFile(path.join(__dirname, '/public/index.html'));
+    }
+});
 
-
-
+// GET /notes returns the notes.html file
+app.get('/notes', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/notes.html'));
+});
 
 
 // Start the server
