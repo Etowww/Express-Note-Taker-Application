@@ -1,9 +1,10 @@
 // Start of Code [Evan Towlerton]
 
 // Bring in Dependencies
-const app = require('express').Router();
-const apiRoutes = require('./apiRoutes/index');
+const express =require('express');
+const router = express.Router();
+const apiRoutes = require('./apiRoutes');
 
-app.use('/api/', apiRoutes);
+router.use('/api/', apiRoutes);
 
-module.exports = app;
+module.exports = router;
