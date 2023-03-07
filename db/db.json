@@ -1,1 +1,41 @@
-[{"title":"Test Title","text":"Test text"},{"title":"New Note","text":"Written by Evan Towlerton","id":"64e5be8d-053a-4cc4-9f6a-2931935bcee0"},{"title":"Baller lil note","text":"New note","id":"8bc6b7ad-efed-4f2a-8785-8e7b9b6355bb"},{"title":"New note","text":"hello","id":"73f3744e-40ca-48e6-bcb2-eeeba4519c0a"}]
+[
+    {
+        "title": "Test Title",
+        "text": "Test text"
+    },
+    {
+        "title": "New Note",
+        "text": "Written by Evan Towlerton",
+        "id": "64e5be8d-053a-4cc4-9f6a-2931935bcee0"
+    },
+    {
+        "title": "Baller lil note",
+        "text": "New note",
+        "id": "8bc6b7ad-efed-4f2a-8785-8e7b9b6355bb"
+    },
+    {
+        "title": "New note",
+        "text": "hello",
+        "id": "73f3744e-40ca-48e6-bcb2-eeeba4519c0a"
+    },
+    {
+        "title": "Dat boi",
+        "text": "hello dat boi",
+        "id": "168bf84d-c12e-449d-b8dd-7d9fd3129059"
+    },
+    {
+        "title": "Newest note go crazyyyy",
+        "text": "baller lil note",
+        "id": "2769c056-00e0-45ee-aa8a-4f0b8e12c75b"
+    },
+    {
+        "title": "Baller new note alert",
+        "text": "baller lil note\n",
+        "id": "6fb161f6-5223-4e21-bf8f-fdc1e2470c12"
+    },
+    {
+        "title": "cool guy tow",
+        "text": "new note",
+        "id": "c8ee3c22-bdb8-4a0b-9389-3f2f162f89bc"
+    }
+]
