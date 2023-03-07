@@ -29,6 +29,17 @@ app.post('/notes', (req, res) => {
 });
 
 
+app.delete('/notes/:id', (req, res) => {
+    fs.readFile('./db/db.json', 'utf8', (err, data) => {
+        let notesArray = JSON.parse(data);
+        const deleteNote = req.params.id;
+        const newNotesArray = notesArray.filter(notesArray => notesArray.id !== deleteNote);
+        writeToFile('./db/db.json', newNotesArray);
+        res.json(`Successfully removed the note with the id of ${deleteNote}`)
+    });
+
+})
+
 
 
 module.exports = app;
