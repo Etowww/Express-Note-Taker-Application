@@ -1,6 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    }
-]
+[{"title":"Test Title","text":"Test text"},{"title":"New Note","text":"Written by Evan Towlerton","id":"64e5be8d-053a-4cc4-9f6a-2931935bcee0"},{"title":"Baller lil note","text":"New note","id":"8bc6b7ad-efed-4f2a-8785-8e7b9b6355bb"},{"title":"New note","text":"hello","id":"73f3744e-40ca-48e6-bcb2-eeeba4519c0a"}]
