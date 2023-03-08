@@ -13,7 +13,7 @@ If you are installing / copying this repository make sure to install the followi
 To spin up the server navigate to the correct directory and enter "node server.js" in your CLI.
 This will start the server and is openable at 'http://localhost:3001'
 ## Usage
-Link to the Deployed Application: 
+Link to the Deployed Application: https://expressnotetaker-et.herokuapp.com
 
 When you first visit the website you will first be greeted by the home screen
 ![alt text](assets/images/HomeScreenNotesApp.png)
